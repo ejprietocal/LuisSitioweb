@@ -1,0 +1,38 @@
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
+
+
+.seccion5{
+    background-image: url('/build/img/estudios.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 1rem solid v.$negro;
+    border-bottom: 1rem solid v.$negro;
+    .seccion5-backcover{
+        backdrop-filter: blur(0px) saturate(180%);
+        -webkit-backdrop-filter: blur(0px) saturate(180%);
+        background-color: rgba(0, 0, 0, 0.35);
+        min-height: inherit;
+        .seccion5-container{
+            display: grid;
+            grid-template-columns: 1fr;
+            align-items: center;
+            justify-content: center;
+            @include m.tablet{
+                grid-template-columns: repeat(2,1fr);
+            }
+            .texto-seccion5,.servicios-seccion5{
+                height: fit-content;
+                .lista-servicios{
+                    .item{
+                        margin-bottom: 1.3rem;
+                        .bi-check{
+                            color: v.$verde;
+                        }
+                    }
+                }
+            }
+        }
+    }    
+}

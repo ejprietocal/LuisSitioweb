@@ -1,0 +1,30 @@
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
+
+
+.seccion1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+
+    background-image: url('../img/backgroundFondo.webp');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    .informacion-seccion1{
+        min-height: 85vh;
+        display: grid;
+        grid-template-columns: 1fr;   
+        align-items: center;
+        justify-content: center;
+        backdrop-filter: blur(0px) saturate(180%);
+        -webkit-backdrop-filter: blur(0px) saturate(180%);
+        background-color: rgba(0, 0, 0, 0.61);
+        @include m.tablet{
+            grid-template-columns: repeat(2,1fr);   
+        }
+
+    }
+}
+

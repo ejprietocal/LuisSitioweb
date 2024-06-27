@@ -17,7 +17,6 @@ const paths = {
     js: 'src/js/**/*.js',
     imagenes: 'src/img/**/*',
     videos: 'src/video/**/*'
-
 }
 
 function css() {
@@ -50,7 +49,6 @@ function versionWebp(done) {
         .pipe( webp() )
         .pipe(dest('public/build/img'))
         // .pipe(notify({ message: 'Imagen Completada'}));
-
         done()
 }
 function versionAvif(done) {

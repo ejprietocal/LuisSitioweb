@@ -1,0 +1,43 @@
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
+
+
+.seccion8{
+    min-height: 50vh;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1900' height='1900' preserveAspectRatio='none' viewBox='0 0 1900 1900'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1016%26quot%3b)' fill='none'%3e%3crect width='1900' height='1900' x='0' y='0' fill='rgba(255%2c 255%2c 255%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c411 C 126.8%2c334.6 380.4%2c14.8 634%2c29 C 887.6%2c43.2 1014.8%2c446.4 1268%2c482 C 1521.2%2c517.6 1773.6%2c262 1900%2c207L1900 1900L0 1900z' fill='rgba(210%2c 215%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c842 C 76%2c899.2 228%2c1139.2 380%2c1128 C 532%2c1116.8 608%2c780.4 760%2c786 C 912%2c791.6 988%2c1154.6 1140%2c1156 C 1292%2c1157.4 1368%2c812.2 1520%2c793 C 1672%2c773.8 1824%2c1006.6 1900%2c1060L1900 1900L0 1900z' fill='rgba(0%2c 0%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c1822 C 126.8%2c1725.4 380.4%2c1364.6 634%2c1339 C 887.6%2c1313.4 1014.8%2c1658.4 1268%2c1694 C 1521.2%2c1729.6 1773.6%2c1552.4 1900%2c1517L1900 1900L0 1900z' fill='rgba(51%2c 51%2c 51%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1016'%3e%3crect width='1900' height='1900' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 2rem !important;
+    .seccion8-container{
+    
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        @include m.tablet{
+            grid-template-columns: repeat(2,1fr);
+        }
+    
+        .titulo{
+            color: v.$verde;
+        }
+        .contenedor{
+            backdrop-filter: blur(0px) saturate(180%);
+            -webkit-backdrop-filter: blur(0px) saturate(180%);
+            background-color: rgba(0, 0, 0, 0.60);
+            color: v.$blanco !important;
+        }
+        .contenedor-2{
+            display: grid;
+            grid-template-columns: 1fr;
+            backdrop-filter: blur(0px) saturate(180%);
+            -webkit-backdrop-filter: blur(0px) saturate(180%);
+            background-color: rgba(0, 0, 0, 0.60);
+            gap: 1rem;
+            @include m.tablet{
+                grid-template-columns: repeat(2,1fr);
+            }
+        }
+    
+    }
+}

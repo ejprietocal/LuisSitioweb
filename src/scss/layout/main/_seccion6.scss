@@ -1,0 +1,37 @@
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
+
+.seccion6{
+    background-image: url('/build/img/ambiente2.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 1rem solid v.$negro;
+    border-bottom: 1rem solid v.$negro;
+    .seccion6-backcover{
+        backdrop-filter: blur(0px) saturate(180%);
+        -webkit-backdrop-filter: blur(0px) saturate(180%);
+        background-color: rgba(0, 0, 0, 0.35);
+        min-height: inherit;
+        .seccion6-container{
+            display: grid;
+            grid-template-columns: 1fr;
+            align-items: center;
+            justify-content: center;
+            @include m.tablet{
+                grid-template-columns: repeat(2,1fr);
+            }
+            .texto-seccion6,.servicios-seccion6{
+                height: fit-content;
+                .lista-servicios{
+                    .item{
+                        margin-bottom: 1.3rem;
+                        .bi-check{
+                            color: v.$verde;
+                        }
+                    }
+                }
+            }
+        }
+    }    
+}

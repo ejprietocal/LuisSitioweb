@@ -1,2 +1,24 @@
 @use 'base/mixins' as m;
 @use 'base/variables' as v;
+
+.footer{
+    min-height: 20rem;
+    background-color: v.$gris;
+    .footer-interno{
+        display: grid;
+        grid-template-columns: 1fr;
+        @include m.tablet{
+            grid-template-columns: repeat(3,1fr);
+        }
+        li{
+            margin-bottom: 2rem;
+        }
+        a{
+            text-decoration: none;
+            color: v.$blanco;
+        }
+        .redes-sociales{
+            min-height: 15rem;
+        }
+    }
+}
