@@ -8,7 +8,7 @@
             </picture>
             <div class="animate__animated animate__fadeInRight text-center text-white">
                 <h3 class="display-4 fw-bold">Consultoría Especializada en</h3>
-                <h3 class="display-4 fw-bold">Geología - Geofísica - Estudios Ambientales</h3>
+                <h3 class="display-4 fw-bold">Geología - Geofísica - Minería - Ambiente</h3>
             </div>
 
     </div>

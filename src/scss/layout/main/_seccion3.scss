@@ -13,7 +13,7 @@
             grid-template-columns: 2fr;
             gap: 2rem;
             @include m.tablet{
-                grid-template-columns: repeat(4,1fr);
+                grid-template-columns: repeat(5,1fr);
             }
             .servicio{
                 min-height: 20rem;

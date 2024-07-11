@@ -1,7 +1,16 @@
 <div class="seccion3 overflow-hidden container-fluid d-flex align-items-center justify-content-center p-3">
-    <div class="seccion3-container w-100 container">
+    <div class="seccion3-container w-100 container overflow-hidden">
         <h2 data-aos="fade-down" class="display-2 text-white fw-bold text-center mb-5">Nuestros Servicios</h2>
         <div class="seccion3-container-interno h-100 w-100">
+            <div id="geofisica" data-aos="fade-right" class="servicio position-relative container p-0">
+                <picture>
+                    <source srcset="/build/img/geofisica.avif" type="image/avif">
+                    <source srcset="/build/img/geofisica.webp" type="image/webp">
+                
+                    <img width="100%" class="start-0 top-0 position-absolute" src="/build/img/geofisica.png" alt="geofisica">
+                </picture>
+                <h2 class="titulo position-absolute z-2 top-0 w-100 d-flex align-items-center text-center fw-bold display-3 text-white justify-content-center h-100">Geofísica</h2>
+            </div>
             <div id="mina" data-aos="fade-right" class="servicio position-relative container p-0">
                 <picture>
                     <source srcset="/build/img/mina.avif" type="image/avif">
@@ -9,7 +18,7 @@
                 
                     <img width="100%" class="start-0 top-0 position-absolute" src="/build/img/mina.png" alt="mina">
                 </picture>
-                <h2 class="titulo position-absolute z-2 top-0 w-100 d-flex align-items-center text-center fw-bold display-3 text-white justify-content-center h-100">Gestion Minera</h2>
+                <h2 class="titulo position-absolute z-2 top-0 w-100 d-flex align-items-center text-center fw-bold display-3 text-white justify-content-center h-100">Gestión Minera</h2>
             </div>
             <div id="geologia" data-aos="flip-left" class="servicio position-relative container p-0">
                 <picture>
@@ -36,7 +45,7 @@
                 
                     <img width="100%" class="start-0 top-0 position-absolute" src="/build/img/geografia.png" alt="geografia">
                 </picture>
-                <h2 class="titulo position-absolute z-2 top-0 w-100 d-flex align-items-center text-center fw-bold display-3 text-white justify-content-center h-100">Sistemas de información geografica</h2>
+                <h2 class="titulo position-absolute z-2 top-0 w-100 d-flex align-items-center text-center fw-bold display-3 text-white justify-content-center h-100">Sistemas de información geográfica</h2>
             </div>
         </div>
     </div>

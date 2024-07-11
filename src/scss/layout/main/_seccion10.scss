@@ -1,0 +1,8 @@
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
+
+.seccion10{
+    z-index: 10;
+    bottom: 4rem;
+    right: 2rem;
+}

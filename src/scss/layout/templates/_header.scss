@@ -2,9 +2,18 @@
 @use 'base/variables' as v;
 
 
+.aux-nav{
+    height: v.$height-nav;
+}
+.container-navigation{
+    background-color: darken(v.$verde, 20%);
+    height: v.$height-nav;
+}
 .navigation{
-    height: 5rem;
-    background-color: transparent;
+    height: inherit;
+    .logo-principal{
+        cursor: pointer;
+    }
 }
 .hamburguer{
     width: 4rem;
@@ -16,7 +25,7 @@
 
     border: none;
     background: transparent;
-    scale: .7;
+    scale: .5;
     span{
         width: 100%;
         height: .5rem;
@@ -49,5 +58,46 @@
     }
     .l2{
         width: 0;
+    }
+}
+.opciones{
+    text-decoration: none;
+    list-style: none;
+    position: absolute;
+    top: v.$height-nav;
+    height: calc(100vh - v.$height-nav);
+    width: 0;
+    padding: 0;
+    transition: v.$transition;
+    backdrop-filter: blur(0px) saturate(180%);
+    -webkit-backdrop-filter: blur(0px) saturate(180%);
+    background-color: rgba(110, 113, 0, 0.90);
+    right: 0;
+    visibility: hidden;
+    opacity: 0;
+
+    @include m.tablet{
+        position: unset;
+        background-color: transparent;
+        width: auto;
+        height: auto;
+        opacity: 1;
+        visibility: visible;
+    }
+    .opcion{
+        cursor: pointer;
+    }
+}
+.show-opciones{
+    width: 50%;
+    padding: 2rem;
+    visibility: visible;
+    opacity: 1;
+
+    @include m.tablet{
+        position: unset;
+        background-color: transparent;
+        width: auto;
+        height: auto;
     }
 }

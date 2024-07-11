@@ -1,6 +1,6 @@
-<div class="container-fluid footer d-flex justify-content-center align-items-center">
+<div class="container-fluid footer d-flex flex-column justify-content-center align-items-center">
     <div class="footer-interno container p-4">
-        <picture>
+        <picture class="text-center">
             <source srcset="/build/img/logoPrincipal.avif" type="image/avif">
             <source srcset="/build/img/logoPrincipal.webp" type="image/webp">
         
@@ -22,5 +22,10 @@
             <li><a href="#">Politicas</a></li>
             <li><a href="#">Privacidad</a></li>
         </ul>
+    </div>
+    <div class="container-fluid">
+        <div class="container fs-3 text-white text-center">
+            Todos los derechos reservados <i class="bi bi-c-circle"></i> <br>Sitio web desarrollado por <a href="https://pribyte.com" target="_blank">Pribytes</a>
+        </div>
     </div>
 </div>
