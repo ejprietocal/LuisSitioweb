@@ -12,8 +12,8 @@
             <div>
                 <a class="d-block mb-3" href="https://api.whatsapp.com/send?phone=+573112464261&text=Hola.%20Estoy%20interesad@%20en%20los%20servicios" target="_blank"><i class="bi bi-whatsapp"></i> +57 311 2464261</a>
                 <a class="d-block mb-3" href="mailto:proyectos@glsingeneria.com" target="_blank"><i class="bi bi-envelope"></i> proyectos@glsingenieria.com</a>
-                <a class="d-block mb-3" href="#" target="_blank"><i class="bi bi-instagram"></i> @instragram</a>
-                <a class="d-block" href="#" target="_blank"><i class="bi bi-linkedin"></i> @linkedIn</a>
+                <a class="d-block mb-3" href="https://www.instagram.com/glsingenieria?igsh=YXRhbGJyNmE3bjkx&utm_source=qr" target="_blank"><i class="bi bi-instagram"></i> @glsingenieria</a>
+                <a class="d-block" href="https://www.linkedin.com/company/gls-engineersgroup-sas/" target="_blank"><i class="bi bi-linkedin"></i>GLS ingenería Group SAS</a>
             </div>
         </div>
     </div>

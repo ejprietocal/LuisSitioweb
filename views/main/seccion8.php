@@ -2,7 +2,7 @@
     <div class="seccion8-container container quienesSomos text-white overflow-hidden">
         <div data-aos="zoom-in" class="contenedor p-3 rounded-4">
             <h2 class="fw-bold titulo display-3">GLS ENGINNERS GROUP SAS</h2>
-            <p class="fs-4 lh-lg">es una empresa privada especializada en consultoría y asesoría para proyectos de Ingeniería y minería. Nos enfocamos en la exploración geológica de recursos minerales, desarrollo de minería ambientalmente responsable y caracterización de suelos y subsuelos. Brindamos asesoría técnico-ambiental y legal dentro del sector minero, apoyando proyectos de exploración, explotación y cumplimiento normativo, con alta eficiencia y capacidad operativa.</p>
+            <p class="fs-4 lh-lg">Es una empresa privada especializada en consultoría y asesoría para proyectos de Ingeniería y minería. Nos enfocamos en la exploración geológica de recursos minerales, desarrollo de minería ambientalmente responsable y caracterización de suelos y subsuelos. Brindamos asesoría técnico-ambiental y legal dentro del sector minero, apoyando proyectos de exploración, explotación y cumplimiento normativo, con alta eficiencia y capacidad operativa.</p>
         </div>
         <div data-aos="zoom-in" class="contenedor-2 rounded-4 p-3">
             <div class="contenedor-interno mision">
