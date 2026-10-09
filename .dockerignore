@@ -1,0 +1,12 @@
+.git
+node_modules
+vendor
+src
+Archivos Necesarios
+LuisProyecto.zip
+includes/.env
+gulpfile.js
+package.json
+package-lock.json
+Dockerfile
+.dockerignore
